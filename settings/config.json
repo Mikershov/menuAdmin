@@ -1,0 +1,23 @@
+{
+    "workMode":"xlsx",
+
+    "xlsx":
+    {
+        "directory":"admin/data/",
+        "name":"list.xlsx",
+        "extractDirectory":"xmlSrc/",
+        "menuName":"xl/worksheets/sheet1.xml",
+        "menuStringsName":"xl/sharedStrings.xml"
+    },
+
+    "mysql":
+    {
+        "user":"",
+        "pas":"",
+        "db":"",
+        "table":""
+    },
+
+    "answerMode":"json",
+    "possibleAnswerModes":["native","json","xml"]
+}

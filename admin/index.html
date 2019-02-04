@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu Editor</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="theme-color" content="#5192C6">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+        <script src="js/menuEdit.js" defer></script>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/menuEdit.css">
+    </head>
+
+    <body>
+        <div id="mainMenuBlock">
+            <div id="serverMsg" class="server-msg">
+                <div id="serverMsgClose"><i class="material-icons">close</i></div>
+                <div id="serverMsgContent">Сообщение от сервера или другое</div>
+            </div>
+
+            <div id="addForm" class="add-form">
+                <div class="add-form-close"><i class="material-icons">keyboard_arrow_right</i></div>
+                <div class="add-form-inputs">
+                    <input type="text" id="formName" placeholder="Название" class="form-text">
+                    <input type="url" id="formUrl" placeholder="URL адрес" class="form-text">
+                    <button type="button" class="form-btn" id="formSubmit">Отправить</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div id="menuLoader">
+                Loader
+            </div>
+
+            <div id="menuContent">
+
+            </div>
+
+            <div id="controlPanel">
+                <button id="itemAddUpBtn" class="menu-control-btn"><i class="material-icons">add</i><i class="material-icons">arrow_upward</i></button>
+                <button id="itemAddDownBtn" class="menu-control-btn"><i class="material-icons">add</i><i class="material-icons">arrow_downward</i></button>
+                <button id="itemAddSubBtn" class="menu-control-btn"><i class="material-icons">add</i><i class="material-icons">subdirectory_arrow_right</i></button>
+                <button id="itemUpBtn" class="menu-control-btn"><i class="material-icons">arrow_upward</i></button>
+                <button id="itemDownBtn" class="menu-control-btn"><i class="material-icons">arrow_downward</i></button>
+                <button id="itemEditBtn" class="menu-control-btn"><i class="material-icons">edit</i></button>
+                <button id="itemDelBtn" class="menu-control-btn"><i class="material-icons">delete</i></button>
+            </div>
+        </div>
+
+
+    </body>
+</html>
